@@ -291,7 +291,23 @@
         .ticket-button:hover {
             transform: scale(1.1);
         }
+        .clown-button {
+            display: inline-block;
+        padding: 12px 24px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(45deg, red, yellow, blue);
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s, box-shadow 0.3s;
+    }
 
+    .clown-button:hover {
+        transform: rotate(10deg) scale(1.2);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
         
     </style>
      <link rel="icon" href="https://i.pinimg.com/736x/65/6e/c8/656ec800ea81438cbca97b38b9cc8cd7.jpg" type="image/x-icon">
@@ -444,7 +460,9 @@
                           <h1>Привет это  <span class="highlight"></span> </p><h1>
                             <h2>Я <span class="highlight" id="changingText">алиш</span></h2>
                             </br>
-                            <p> Личность в интернете.</p>
+                            <p> Личность в интернете. <a href="https://aaalishr.github.io/partfolio.lishh/" target="_blank" class="clown-button">
+    🎪 Посмотреть портфолио 🤹‍♂️
+</a></p>
                             </br>
                             <div class="buttons">
                                 <button onclick="changeText()"> Жмяк </button>
